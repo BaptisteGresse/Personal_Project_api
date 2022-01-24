@@ -34,11 +34,7 @@ fetch(`https://pokeapi.co/api/v2/pokemon/${i}`)
         <img id='image' style="z-index: 2" src=${img} alt="">
         <p id="index">#${id}</p>
         <p id="type">Type : ${type1}</p>
-            <div class="hidden"> 
-                <p>hahahaha</p>
-            </div>
-        </div>        
-        `
+        </div>`
 });
 }
 
